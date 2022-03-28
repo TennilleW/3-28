@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -21,7 +27,10 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;

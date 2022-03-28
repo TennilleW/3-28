@@ -1,30 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
+import Navbar from "./components/navbar.js";
+import Splash from "./components/splash.js";
+import Photos from "./components/photos.js";
+import Descriptions from "./components/descriptions.js";
+
 import "./App.css";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <ul>
-        <li>
-          <a href="default.asp">Home</a>
-        </li>
-        <li>
-          <a href="news.asp">News</a>
-        </li>
-        <li>
-          <a href="contact.asp">Contact</a>
-        </li>
-        <li>
-          <a href="about.asp">About</a>
-        </li>
-      </ul>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <Splash />
+      <Photos />
+      <Descriptions />
+    </div>
+  );
 }
 
 export default App;
